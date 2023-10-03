@@ -10,7 +10,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 body {
-    text-align: center;
+  text-align: center;
   width: 100vw;
   height: 100vh;
   background-color: var(--Lightgray);
@@ -21,26 +21,26 @@ body {
 .container {
   width: 100%;
 }
-.container .box{
-    background-color: var(--White);
-    border-radius: 15px;
-    margin: 0 10px;
-    padding: 21px;
+.container .box {
+  background-color: var(--White);
+  border-radius: 15px;
+  margin: 0 10px;
+  padding: 21px;
 }
-.container img{
-    margin-bottom: 10px;
-    border-radius: 30px;
+.container img {
+  margin-bottom: 10px;
+  border-radius: 30px;
 }
-.container .box h2{
-    line-height: 35px;
-    color: var(--Darkblue);
-    margin-bottom: 15px;
+.container .box h2 {
+  line-height: 35px;
+  color: var(--Darkblue);
+  margin-bottom: 15px;
 }
-.container .box p{
-    line-height: 20px;
-    color: var(--Grayishblue);
-    font-weight: bold;
-    font-size: 15px;
+.container .box p {
+  line-height: 20px;
+  color: var(--Grayishblue);
+  font-weight: bold;
+  font-size: 15px;
 }
 @media (min-width: 1000px) {
   .container {

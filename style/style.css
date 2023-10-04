@@ -12,7 +12,7 @@
 body {
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--Lightgray);
   display: flex;
   justify-content: center;
@@ -25,25 +25,26 @@ body {
   background-color: var(--White);
   border-radius: 15px;
   margin: 0 10px;
-  padding: 21px;
+  padding: 13px;
 }
 .container img {
   margin-bottom: 10px;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 .container .box h2 {
   line-height: 35px;
   color: var(--Darkblue);
-  margin-bottom: 15px;
+  margin-bottom: 7px;
 }
 .container .box p {
   line-height: 20px;
   color: var(--Grayishblue);
   font-weight: bold;
   font-size: 15px;
+  padding: 20px;
 }
 @media (min-width: 1000px) {
   .container {
-    width: 33%;
+    width: 30%;
   }
 }
